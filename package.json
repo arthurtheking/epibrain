@@ -1,0 +1,28 @@
+{
+  "name": "epibrain",
+  "version": "1.0.0",
+  "description": "Site for epilepsy helpers",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurtheking/epibrain.git"
+  },
+  "author": "Arthur Kudria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurtheking/epibrain/issues"
+  },
+  "homepage": "https://github.com/arthurtheking/epibrain#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "hamburgers": "^1.1.3",
+    "sass": "^1.23.2",
+    "swiper": "^5.2.0"
+  }
+}
