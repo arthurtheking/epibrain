@@ -1,3 +1,4 @@
+import '../sass/styles'
 import Swiper from 'swiper';
 
 const refs = {
