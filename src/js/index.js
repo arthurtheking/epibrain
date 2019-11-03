@@ -9,6 +9,7 @@ const refs = {
 const openMenu = () => {
     refs.sidebar.classList.toggle('active');
     refs.hamburgerBtn.classList.toggle('is-active');
+    refs.toogleBtn.classList.toggle('swiped')
 }
 
 refs.toogleBtn.addEventListener('click', openMenu);

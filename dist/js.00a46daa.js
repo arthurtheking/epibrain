@@ -10262,6 +10262,7 @@ var refs = {
 var openMenu = function openMenu() {
   refs.sidebar.classList.toggle('active');
   refs.hamburgerBtn.classList.toggle('is-active');
+  refs.toogleBtn.classList.toggle('swiped');
 };
 
 refs.toogleBtn.addEventListener('click', openMenu);
@@ -10308,7 +10309,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57656" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57816" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
